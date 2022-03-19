@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch ./assets/scss/main.scss:./assets/css/style.css"
+    "sass": "sass --watch ./assets/scss/main.scss:./assets/css/style.css",
+    "api" : "json-server --watch ./assets/serveurJson/api.json"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/jeanmaFarina/hackathon-charleroi#readme",
   "dependencies": {
+    "json-server": "^0.17.0",
     "sass": "^1.49.9"
+    
   }
 }
