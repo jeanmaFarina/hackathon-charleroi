@@ -1,0 +1,51 @@
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .space{
+    height: 50em;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .activity_title{
+      font-size: 7em;
+      font-weight: bolder;
+      text-align: center;
+  }
+  .activity_description{
+    margin-top: 2em;
+      font-size: 5em;
+
+  }
+  .activity_profileBox{
+    margin-top:2em;
+    @include flexRSB2;
+    .activity_profilePicture{
+      width: 5em;
+      height: 5em;
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-style: solid;
+      border-color: $blueMain;
+
+        &:nth-child(1){
+          background-image: url("../images/profiles/1.jpg");
+        }
+        &:nth-child(2){
+          background-image: url("../images/profiles/2.jpg");
+        }
+        &:nth-child(3){
+          background-image: url("../images/profiles/3.jpg");
+        }
+        &:nth-child(4){
+          background-image: url("../images/profiles/4.jpg");
+        }
+        &:nth-child(5){
+          background-image: url("../images/profiles/6.jpg");
+        }
+    }
+  }

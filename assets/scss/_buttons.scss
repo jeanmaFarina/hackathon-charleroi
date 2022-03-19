@@ -10,10 +10,17 @@
     }
     &--little{
         height: 5rem;
+        width: 5rem;
     }
     &--maxi{
         width: 27rem;
         font-size: 2rem;
         height: 4rem;
     }
+}
+.blue{
+  background-color: $blueMain
+}
+.green{
+  background-color: green;
 }
