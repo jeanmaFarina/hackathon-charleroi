@@ -24,7 +24,14 @@
 .button--maxi {
   width: 27rem;
   font-size: 2rem;
-  height: 4rem;
+  height: 5rem;
+  text-transform: uppercase;
+}
+.button--maxi2 {
+  width: calc(100% - 0.5rem);
+  font-size: 6rem;
+  height: 12rem;
+  text-transform: uppercase;
 }
 
 * {
@@ -250,7 +257,104 @@ img {
 
 .deconnexion__button {
   background-color: #0E4DA4;
-  text-transform: uppercase;
+}
+
+.news {
+  background: url(./../images/8429757_1.jpeg) no-repeat center/cover;
+  background-size: 100%;
+  height: 100%;
+  width: calc(100% - 1rem);
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(93, 76, 85, 0.5);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+.news__art {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 2rem;
+  width: 8rem;
+}
+
+input[type=radio] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: var(--form-background);
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: #0E4DA4;
+  width: 2rem;
+  height: 2rem;
+  border: 0.15em solid #0E4DA4;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(93, 76, 85, 0.5);
+  display: grid;
+  place-content: center;
+}
+
+input[type=radio]::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  background-color: #0E4DA4;
+}
+
+input[type=radio]:checked::before {
+  transform: scale(1);
+}
+
+input[type=radio]:focus {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+}
+
+.indexTripleButtons {
+  display: grid;
+  grid-template-areas: "a a" "b b" "c d";
+  gap: 1rem;
+}
+.indexTripleButtons__link:nth-child(1) {
+  grid-area: a;
+}
+.indexTripleButtons__link:nth-child(1) button {
+  background-color: #1BB55C;
+}
+.indexTripleButtons__link:nth-child(2) {
+  grid-area: b;
+}
+.indexTripleButtons__link:nth-child(2) button {
+  background-color: #0E4DA4;
+}
+.indexTripleButtons__link:nth-child(3) {
+  grid-area: c;
+}
+.indexTripleButtons__link:nth-child(3) button {
+  background-color: #1BB55C;
+}
+.indexTripleButtons__link:nth-child(4) {
+  grid-area: d;
+}
+.indexTripleButtons__link:nth-child(4) button {
+  background-color: #1BB55C;
 }
 
 /*# sourceMappingURL=style.css.map */
