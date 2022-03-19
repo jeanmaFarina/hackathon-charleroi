@@ -12,21 +12,42 @@
     &__link{
         &:nth-child(1){
             grid-area: a;
+            button{
+                background-color: $greenMain;
+            }
         }
         &:nth-child(2){
             grid-area: b;
+            button{
+                background-color: $blueMain;
+            }
         }
         &:nth-child(3){
             grid-area: c;
+            button{
+                background-color: $blueMain;
+            }
         }
         &:nth-child(4){
             grid-area: d;
+            button{
+                background-color: $blueMain;
+            }
         }
         &:nth-child(5){
             grid-area: e;
+            button{
+                background-color: $blueMain;
+            }
         }
         &:nth-child(6){
             grid-area: f;
+            button{
+                background-color: $greenMain;
+            }
         }
     }
+}
+.deconnexion__button{
+    background-color: $blueMain;
 }

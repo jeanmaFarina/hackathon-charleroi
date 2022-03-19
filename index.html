@@ -19,20 +19,49 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="nav">
-            <span class="nav__toggle toggle">
-                <i class="fas fa-bars toggle__open"></i>
-                <i class="fas fa-times toggle__close"></i>
-              </span>
-              <span class="nav__link">
-                <i class="fas fa-search"></i>
-                <a class="nav__profil" href="#"></a>       
-              </span>
-        </nav>
-    </header>
+  <header class="header">
+    <nav class="nav">
+        <span class="toggle nav__toggle">
+            <i class="fas fa-bars toggle__open"></i>
+            <i class="fas fa-times toggle__close"></i>
+          </span>
+          <span class="nav__link">
+            <i class="fas fa-search"></i>
+            <a class="nav__profil" href="#"><div class="nav__img" id="profil"></div></a>       
+          </span>
+    </nav>
+</header>
     <main class="main">
- 
+      <section class="news">
+        <article class="news__art">
+          <input type="radio" class="news__inews">
+          <input type="radio" class="news__inews" checked>
+          <input type="radio" class="news__inews">
+        </article>
+      </section>
+
+      <section class="indexTripleButtons">
+        <a class="indexTripleButtons__link" href="">
+          <button class="button indexTripleButtons__button button--maxi">
+              agenda
+          </button>
+        </a>
+        <a class="indexTripleButtons__link" href="">
+          <button class="button indexTripleButtons__button button--maxi">
+              qui aider?
+          </button>
+        </a>
+        <a class="indexTripleButtons__link" href="">
+          <button class="button indexTripleButtons__button button--maxi2">
+            <i class="fa-solid fa-earth-europe"></i>
+          </button>
+        </a>
+        <a class="indexTripleButtons__link" href="">
+          <button class="button indexTripleButtons__button button--maxi2">
+            <i class="fa-solid fa-user"></i>
+          </button>
+        </a>
+      </section>
     </main>
 
     <footer class="footer">

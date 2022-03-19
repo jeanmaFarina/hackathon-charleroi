@@ -1,0 +1,34 @@
+.indexTripleButtons{
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "b b"
+    "c d";
+    gap: 1rem;
+    &__link{
+        &:nth-child(1){
+            grid-area: a;
+            button{
+                background-color: $greenMain;
+            }
+        }
+        &:nth-child(2){
+            grid-area: b;
+            button{
+                background-color: $blueMain;
+            }
+        }
+        &:nth-child(3){
+            grid-area: c;
+            button{
+                background-color: $greenMain;
+            }
+        }
+        &:nth-child(4){
+            grid-area: d;
+            button{
+                background-color: $greenMain;
+            }
+        }
+    }
+}
