@@ -1,3 +1,51 @@
 .nav{
- 
+    @include introMob;
+    @include flexRSB;
+    padding: 0;
+    height: 6rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: $blueMain;
+    box-shadow: 0.2rem 0.2rem 0.2rem $shadow;
+    &__toggle{
+        @include flexC;
+        color: $white;
+        text-shadow: 0.1rem 0.1rem 0.1rem $shadow;
+        width: 7rem;
+        height: calc(100% - 1rem);
+        border-radius: 0.5rem;
+        font-size: 4rem;
+        cursor: pointer;
+    }
+    &__link{
+        @include flexRSB;
+        font-size: 3.5rem;
+        color: $white;
+    }
+    &__img{
+        border-radius: 50%;
+        height: 4rem;
+        width: 4rem;
+        background-color: $white3;
+        margin: 0 1rem 0 1.5rem;
+        border: 0.1rem solid $white;
+    }
+}
+.toggle{
+    &__open{
+        display: block;
+    }
+    &__close{
+        display: none;
+    }
+}
+.toggle__on{
+    .toggle{
+        &__open{
+            display: none;
+        }
+        &__close{
+            display: block;
+        }
+    }
 }

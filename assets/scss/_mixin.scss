@@ -1,3 +1,23 @@
+@mixin introMob{
+	max-width: 320px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+@mixin introTab{
+	max-width: 767px;
+	margin: 0 auto;
+	padding: 4rem;
+}
+@mixin introDesk{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0rem;
+}
+
+
+
+
+
 @mixin flexC{
 	display: flex;
 	flex-direction: column;
@@ -6,7 +26,7 @@
 	align-items: center;
 	align-content: center;
 }
-@mixin flexCSA{
+@mixin flexC{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -19,7 +39,7 @@
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: stretch;
 	align-content: stretch;
 }
 @mixin flexCSBW{
@@ -35,8 +55,8 @@
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
-	align-items: flex-start;
-	align-content: stretch;
+	align-items: center;
+	align-content: center;
 }
 @mixin flexCFS{
 	display: flex;

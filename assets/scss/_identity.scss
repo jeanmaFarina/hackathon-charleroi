@@ -1,0 +1,54 @@
+.identity{
+    width: 100%;
+    padding: 1rem;
+    background-color: $white2;
+    border-radius: 1rem;
+    @include flexRSB;
+    &__box{
+        border: 0.3rem solid $blueMain;
+        width: calc(40% - 1rem);
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.1rem 0.5rem $shadow;
+    }
+    &__photoProfil{
+        height: 10rem;
+    }
+    &__ratio{
+        height: 3rem;
+        font-size: 2rem;
+        @include flexRSE;
+        i{
+            color: $yellowMain;
+            text-shadow: 0.1rem 0.1rem 0.05rem $shadow2;
+            &:nth-child(4){
+                color: $shadow;
+            }
+            &:nth-child(5){
+                color: $shadow;
+            }
+        }
+        h3{
+            margin-top: 1rem;
+        }
+    }
+    &__score{
+        height: 3rem;
+        font-size: 3rem;
+        @include flexRSE;
+        color: $greenMain;
+        i{
+            text-shadow: 0.1rem 0.1rem 0.05rem $shadow2;
+        }
+        h3{
+            margin-top: 1rem;
+            text-shadow: 0.1rem 0.1rem 0.05rem $shadow2;
+        }
+    }
+    &__info{
+        border: 0.3rem solid $blueMain;
+        width: 60%;
+        border-radius: 1rem;
+        height: 100%;
+        box-shadow: 0.1rem 0.1rem 0.5rem $shadow;
+    }
+}
