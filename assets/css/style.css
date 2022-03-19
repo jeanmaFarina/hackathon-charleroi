@@ -73,6 +73,18 @@ img {
   margin-right: auto;
   border-color: black;
   border-style: solid;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-around;
+  overflow: visible;
+}
+.main .carrousel img {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
