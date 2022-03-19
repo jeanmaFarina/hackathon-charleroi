@@ -1,4 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.button {
+  border: 0;
+  width: 13rem;
+  font-size: 5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(93, 76, 85, 0.5);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.button--big {
+  height: 11rem;
+}
+.button--little {
+  height: 5rem;
+}
+.button--maxi {
+  width: 27rem;
+  font-size: 2rem;
+  height: 4rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +34,15 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(bottom, rgba(34, 54, 236, 0.6), rgba(32, 70, 241, 0.15)), url(./../images/overlay.png);
 }
 
 img {
@@ -26,6 +58,144 @@ img {
   * {
     font-size: 100%;
   }
+}
+.nav {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  height: 8vh;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: #0E4DA4;
+  box-shadow: 0.1rem 0.1rem 0.2rem rgba(93, 76, 85, 0.5);
+}
+.nav__toggle {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #FFF;
+  text-shadow: 0.1rem 0.1rem 0.1rem rgba(93, 76, 85, 0.5);
+  width: 7rem;
+  height: calc(100% - 1rem);
+  border-radius: 0.5rem;
+  font-size: 5rem;
+  cursor: pointer;
+}
+.nav__link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-size: 4rem;
+  color: #FFF;
+}
+.nav__img {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 1rem 0 1.5rem;
+  border: 0.1rem solid #FFF;
+}
+
+.toggle__open {
+  display: block;
+}
+.toggle__close {
+  display: none;
+}
+
+.toggle__on .toggle__open {
+  display: none;
+}
+.toggle__on .toggle__close {
+  display: block;
+}
+
+.main {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  height: 70vh;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0.1rem solid #FFF;
+}
+
+.identity {
+  width: 100%;
+  padding: 1rem;
+  height: 24rem;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: 10rem auto;
+  grid-template-rows: 2fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-areas: "a d" "b d" "c d";
+}
+.identity__photoProfil {
+  grid-area: a;
+  background-color: red;
+  border-radius: 0.5rem;
+}
+.identity__ratio {
+  grid-area: b;
+  background-color: green;
+  border-radius: 0.5rem;
+}
+.identity__score {
+  grid-area: c;
+  background-color: blue;
+  border-radius: 0.5rem;
+}
+.identity__info {
+  grid-area: d;
+  background-color: yellow;
+  border-radius: 0.5rem;
+}
+
+.buttonBox__art {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "a b" "a c" "d f" "e f";
+  gap: 1rem;
+}
+.buttonBox__link:nth-child(1) {
+  grid-area: a;
+}
+.buttonBox__link:nth-child(2) {
+  grid-area: b;
+}
+.buttonBox__link:nth-child(3) {
+  grid-area: c;
+}
+.buttonBox__link:nth-child(4) {
+  grid-area: d;
+}
+.buttonBox__link:nth-child(5) {
+  grid-area: e;
+}
+.buttonBox__link:nth-child(6) {
+  grid-area: f;
 }
 
 /*# sourceMappingURL=style.css.map */

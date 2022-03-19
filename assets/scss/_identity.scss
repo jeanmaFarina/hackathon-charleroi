@@ -1,0 +1,36 @@
+.identity{
+    width: 100%;
+    padding: 1rem;
+    height: 24rem;
+    background-color: $white2;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 10rem auto;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas: 
+    "a d"
+    "b d"
+    "c d";
+
+    &__photoProfil{
+        grid-area: a;
+        background-color: red;
+        border-radius: 0.5rem;
+    }
+    &__ratio{
+        grid-area: b;
+        background-color: green;
+        border-radius: 0.5rem;
+    }
+    &__score{
+        grid-area: c;
+        background-color: blue;
+        border-radius: 0.5rem;
+    }
+    &__info{
+        grid-area: d;
+        background-color: yellow;
+        border-radius: 0.5rem;
+    }
+}
