@@ -14,6 +14,7 @@
     }
     &--little{
         height: 5rem;
+        width: 5rem;
     }
     &--maxi{
         width: 27rem;
@@ -27,4 +28,10 @@
         height: 12rem;
         text-transform: uppercase;
     }
+}
+.blue{
+  background-color: $blueMain
+}
+.green{
+  background-color: green;
 }

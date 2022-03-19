@@ -20,6 +20,7 @@
 }
 .button--little {
   height: 5rem;
+  width: 5rem;
 }
 .button--maxi {
   width: 27rem;
@@ -32,6 +33,14 @@
   font-size: 6rem;
   height: 12rem;
   text-transform: uppercase;
+}
+
+.blue {
+  background-color: #0E4DA4;
+}
+
+.green {
+  background-color: green;
 }
 
 * {
@@ -355,6 +364,106 @@ input[type=radio]:focus {
 }
 .indexTripleButtons__link:nth-child(4) button {
   background-color: #1BB55C;
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10em;
+}
+.footer_buttonBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  transition-property: opacity;
+  transition: 1s ease-in-out;
+  opacity: 1;
+}
+
+.space {
+  height: 50em;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.activity_title {
+  font-size: 7em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.activity_description {
+  margin-top: 2em;
+  font-size: 5em;
+}
+
+.activity_profileBox {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+.activity_profileBox .activity_profilePicture {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-color: #0E4DA4;
+}
+.activity_profileBox .activity_profilePicture:nth-child(1) {
+  background-image: url("../images/profiles/1.jpg");
+}
+.activity_profileBox .activity_profilePicture:nth-child(2) {
+  background-image: url("../images/profiles/2.jpg");
+}
+.activity_profileBox .activity_profilePicture:nth-child(3) {
+  background-image: url("../images/profiles/3.jpg");
+}
+.activity_profileBox .activity_profilePicture:nth-child(4) {
+  background-image: url("../images/profiles/4.jpg");
+}
+.activity_profileBox .activity_profilePicture:nth-child(5) {
+  background-image: url("../images/profiles/6.jpg");
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  height: auto;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0.1rem solid #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
