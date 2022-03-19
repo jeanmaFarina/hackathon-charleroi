@@ -232,6 +232,12 @@ main {
   justify-content: space-between;
 }
 
+body {
+  transition-property: opacity;
+  transition: 1s ease-in-out;
+  opacity: 1;
+}
+
 .space {
   height: 50em;
   width: 100px;

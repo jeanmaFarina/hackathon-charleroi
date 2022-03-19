@@ -5,13 +5,15 @@ document.querySelector("#previous").addEventListener("click",(e)=>{
   i = i -1
   if(i<0)
     i=2
+  document.body.style.opacity = "0"
   document.body.style.backgroundImage = `url(../assets/images/image${i}.jpg)`
-
+  document.body.style.opacity = "1"
 })
 document.querySelector("#next").addEventListener("click",(e)=>{
   i = i +1
   if(i>2)
     i=0
+  document.body.style.opacity = "0"
   document.body.style.backgroundImage = `url(../assets/images/image${i}.jpg)`
-
+  document.body.style.opacity = "1"
 })
