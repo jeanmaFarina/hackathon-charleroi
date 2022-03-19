@@ -1,6 +1,19 @@
 .button{
-  width: 40em;
-  height: 30em;
-  border-style: solid;
-  border-color: black;
+    border: 0;
+    width: 13rem;
+    font-size: 5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem $shadow;
+    @include flexC;
+    &--big{
+        height: 11rem;
+    }
+    &--little{
+        height: 5rem;
+    }
+    &--maxi{
+        width: 27rem;
+        font-size: 2rem;
+        height: 4rem;
+    }
 }

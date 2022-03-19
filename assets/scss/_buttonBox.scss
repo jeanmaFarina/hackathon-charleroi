@@ -1,0 +1,32 @@
+.buttonBox{
+    &__art{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a b"
+        "a c"
+        "d f"
+        "e f";
+        gap: 1rem;
+    }  
+    &__link{
+        &:nth-child(1){
+            grid-area: a;
+        }
+        &:nth-child(2){
+            grid-area: b;
+        }
+        &:nth-child(3){
+            grid-area: c;
+        }
+        &:nth-child(4){
+            grid-area: d;
+        }
+        &:nth-child(5){
+            grid-area: e;
+        }
+        &:nth-child(6){
+            grid-area: f;
+        }
+    }
+}

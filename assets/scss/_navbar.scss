@@ -1,20 +1,53 @@
 .nav{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  border-color: black;
-  border-style: solid;
-  width: 80%;
-  height: 30em;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 15em;
-  .user-logo{
-    width:20%;
-    padding: 10em;
-  }
-  .menu-logo{
-    padding: 10em;
-    width: 20%;
-  }
+    @include introMob;
+    @include flexRSB;
+    padding: 0;
+    height: 8vh;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: $blueMain;
+    box-shadow: 0.1rem 0.1rem 0.2rem $shadow;
+    &__toggle{
+        @include flexC;
+        // background-color: $white4;
+        color: $white;
+        text-shadow: 0.1rem 0.1rem 0.1rem $shadow;
+        width: 7rem;
+        // margin: 0.5rem;
+        height: calc(100% - 1rem);
+        border-radius: 0.5rem;
+        font-size: 5rem;
+        cursor: pointer;
+    }
+    &__link{
+        @include flexRSB;
+        font-size: 4rem;
+        color: $white;
+    }
+    &__img{
+        border-radius: 50%;
+        height: 4rem;
+        width: 4rem;
+        background-color: $white3;
+        margin: 0 1rem 0 1.5rem;
+        border: 0.1rem solid $white;
+    }
+}
+.toggle{
+    &__open{
+        display: block;
+    }
+    &__close{
+        display: none;
+    }
+}
+.toggle__on{
+    .toggle{
+        &__open{
+            display: none;
+        }
+        &__close{
+            display: block;
+        }
+    }
 }
