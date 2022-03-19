@@ -5,10 +5,15 @@ const url_group="http://localhost:3000/group/";
 const url_pro="http://localhost:3000/pro/";
 
 
+/* 
+Note that  most of the necessary functions are created we just need to add events of the html file and implement these functions
+*/
 
 
-// a function that returns the list of helpers
+
+
 async function getHelperList(){
+    // a function that returns the list of helpers
     const resHelper=await fetch(url_helper);
     const helpers=await resHelper.json();
     console.log(helpers);
@@ -18,23 +23,27 @@ async function getHelperList(){
  
 
 
-// a function that returns a helper when helper id is given
+
 async function getHelper(id){
+    // a function that returns a helper when helper id is given
     const resHelper=await fetch(url_helper+id);
     const helper=await resHelper.json();
     console.log(helper);
 }
 
  
-// a function that returns the list of needers
+
 async function getNeederList(){
+    // a function that returns the list of needers
     const resNeeder=await fetch(url_needer);
     const needers=await resNeeder.json();
     console.log(needers);
     }
 
-// a function that returns a needer  when needer id is given
+
+
 async function getNeeder(id){
+    // a function that returns a needer  when needer id is given
     const resNeeder=await fetch(url_needer+id);
     const needer=await resNeeder.json();
     console.log(needer);
@@ -42,15 +51,17 @@ async function getNeeder(id){
 
 
 
-// a function that returns a activity list 
+
 async function getActivityList(){
+    // a function that returns a activity list 
     const resActivity=await fetch(url_activity);
     const activities=await resActivity.json();
     console.log(activities);
     }
 
-// a function that returns an activity when activity id is given
+
 async function getActivity(id){
+    // a function that returns an activity when activity id is given
     const resActivity=await fetch(url_activity+id);
     const activity=await resActivity.json();
     console.log(activity);
