@@ -1,8 +1,10 @@
 .main{
     @include introMob;
     @include flexCSB;
-    height: 70vh;
-    border-radius: 0.5rem;
+    height: 60rem;
+    width: 100%;
+    border-radius: 1rem;
     background-color: $white3;
-    border: 0.1rem solid $white;
+    border: 0.3rem solid $blueMain;
+    box-shadow: 0.2rem 0.2rem 0.2rem $shadow;
 }

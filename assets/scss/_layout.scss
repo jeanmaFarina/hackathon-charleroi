@@ -8,22 +8,12 @@
     text-decoration: none;
 }
 body{
-    padding: 4rem 2rem;
+    padding: 2rem 2rem 0 2rem;
     @include flexCSB;
     height: 100vh;
-    background-image: -webkit-linear-gradient( bottom, rgba(34, 54, 236, 0.6), rgba(32, 70, 241, 0.15) ), url(./../images/overlay.png);
+    // background-image: -webkit-linear-gradient( bottom, rgba(34, 54, 236, 0.6), rgba(32, 70, 241, 0.15) ), url(./../images/overlay.png);
 }
 img{
     width: 100%;
 }
 
-@media screen and (min-width: 767px){
-    *{
-        font-size: 80%;
-    }
-}
-@media screen and (min-width: 1024px){
-    *{
-        font-size: 100%;
-    }
-}
