@@ -8,7 +8,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "200",
+        "rate":"1"
       },
       {
         "id": 2,
@@ -19,7 +20,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "300",
+        "rate":""
       },
       {
         "id": 3,
@@ -30,7 +32,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031 x56442",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "100",
+        "rate":"1"
       },
       {
         "id": 4,
@@ -41,7 +44,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "100",
+        "rate":"1"
       },
       {
         "id": 5,
@@ -52,7 +56,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "400",
+        "rate":"1"
       },
       {
         "id": 6,
@@ -63,7 +68,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "100",
+        "rate":"5"
       },
       {
         "id": 7,
@@ -74,7 +80,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "500",
+        "rate":"2"
       },
       {
         "id": 8,
@@ -85,7 +92,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "400",
+        "rate":"4"
       },
       {
         "id": 9,
@@ -96,7 +104,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "300",
+        "rate":"1"
       },
       {
         "id": 5,
@@ -107,7 +116,8 @@
         "postalCode": "6000",
         "telephone": "1-770-736-8031",
         "userType" : "helper",
-        "badges" : ""
+        "badges" : "200",
+        "rate":"1"
       }
     
 ]
