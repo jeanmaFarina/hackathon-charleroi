@@ -634,11 +634,11 @@ img {
   height: 20rem;
   width: 100%;
   border-radius: 1rem;
-  background: url(./../images/image2.png) no-repeat center/cover;
+  background: url(./../images/forestia.jpeg) no-repeat center/cover;
 }
 
 .news {
-  background: url(./../images/image2.png) no-repeat center/cover;
+  background: url(./../images/rsz_1steven-kamenar-mmjx78v7xs8-unsplash.jpg) no-repeat center/cover;
   height: 100%;
   width: calc(100% - 1rem);
   margin-bottom: 2rem;

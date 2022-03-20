@@ -8,7 +8,7 @@ document.getElementById("previous").addEventListener("click",(e)=>{
   if(i<0)
     i=2
   bg.style.opacity = "0"
-  bg.style.backgroundImage = `url(../assets/images/image${i}.jpg)`
+  bg.style.backgroundImage = `url(../assets/images/image${i}.jpeg)`
   bg.style.opacity = "1"
 })
 document.getElementById("next").addEventListener("click",(e)=>{
