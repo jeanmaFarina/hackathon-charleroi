@@ -8,3 +8,10 @@
     border: 0.3rem solid $blueMain;
     box-shadow: 0.2rem 0.2rem 0.2rem $shadow;
 }
+.main2{
+    @include introMob;
+    @include flexCSB;
+    padding: 0;
+    height: 60rem;
+    width: 100%;
+}

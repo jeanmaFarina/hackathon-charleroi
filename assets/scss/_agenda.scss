@@ -1,0 +1,22 @@
+.agenda{
+    height: 100%;
+    @include flexCSB;
+    button:nth-child(2){
+        background-color: $greenMain;
+    }
+    button:nth-child(4){
+        background-color: $blueMain;
+    }
+    &__box{
+        height: 15rem;
+        width: 100%;
+        border-radius: 1rem;
+        background: url(./../images/image2.png) no-repeat center/cover;
+        @include flexCFE;
+    }
+    &__h4{
+        color: $greenMain;
+        font-size: 4rem;
+        text-shadow: 0.1rem 0.1rem 0.5rem $shadow;
+    }
+}

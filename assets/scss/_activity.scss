@@ -1,36 +1,38 @@
-  main{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  body{
-    transition-property: opacity;
-    transition: 1s ease-in-out;
-
-    opacity: 1;
-  }
-  .space{
-    height: 50em;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .activity_title{
-      font-size: 7em;
-      font-weight: bolder;
+ .bubble1{
+    height: 8rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: $white3;
+    box-shadow: 0.2rem 0.2rem 0.2rem $shadow;
+    @include flexC;
+    &__h4{
+      font-size: 2rem;
       text-align: center;
+      margin-top: 1rem;
+    }
+ }
+ .bubble2{
+  height: 24rem;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: $white3;
+  box-shadow: 0.2rem 0.2rem 0.2rem $shadow;
+  @include flexC;
+  &__p{
+    text-align: center;
+    font-size: 1.5rem;
   }
-  .activity_description{
-    margin-top: 2em;
-      font-size: 5em;
-
-  }
+}
   .activity_profileBox{
-    margin-top:2em;
-    @include flexRSB2;
+    @include flexRSB;
+    width: 100%;
+    padding: 1rem;
     .activity_profilePicture{
-      width: 5em;
-      height: 5em;
+      width: 4rem;
+      height: 4rem;
       border-radius: 50%;
       background-position: center;
       background-size: cover;
@@ -55,3 +57,9 @@
         }
     }
   }
+.multiBtn{
+  &__art{
+    width: 100%;
+    @include flexRSB;
+  }
+}

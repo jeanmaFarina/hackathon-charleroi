@@ -12,6 +12,9 @@
     }
     &__photoProfil{
         height: 10rem;
+        background: url("./../images/profiles/1.jpg") no-repeat center/cover;
+        border-radius: 1rem;
+        margin: 0.2rem;
     }
     &__ratio{
         height: 3rem;

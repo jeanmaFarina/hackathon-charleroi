@@ -8,13 +8,13 @@
     color: $white;
     text-shadow: 0.1rem 0.1rem 0.5rem $shadow;
     @include flexC;
+    cursor: pointer;
     &--big{
         height: 11rem;
         font-size: 7rem;
     }
     &--little{
         height: 5rem;
-        width: 5rem;
     }
     &--maxi{
         width: 27rem;
@@ -28,10 +28,23 @@
         height: 12rem;
         text-transform: uppercase;
     }
-}
-.blue{
-  background-color: $blueMain
-}
-.green{
-  background-color: green;
+    &--maxi3{
+        width: 27rem;
+        font-size: 2rem;
+        height: 5rem;
+        text-transform: uppercase;
+        @include flexRSB;
+        padding: 0 6rem;
+    }
+    &--mini1{
+        height: 5rem;
+        width: 5rem;
+        background-color: $blueMain;
+    }
+    &--mini2{
+        height: 5rem;
+        width: 5rem;
+        margin: 0 5rem;
+        background-color: $greenMain;
+    }
 }

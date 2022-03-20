@@ -9,11 +9,58 @@
 }
 body{
     padding: 2rem 2rem 0 2rem;
-    @include flexCSB;
     height: 100vh;
     // background-image: -webkit-linear-gradient( bottom, rgba(34, 54, 236, 0.6), rgba(32, 70, 241, 0.15) ), url(./../images/overlay.png);
 }
 img{
     width: 100%;
 }
-
+#idbg{
+    transition-property: opacity;
+    transition: 1s ease-in-out;
+    opacity: 1;
+}
+.contener{
+    margin: 0 auto;
+    padding-top: 2rem;
+    width: 40rem;
+    height: 80rem;
+    border: 0.1rem solid $shadow;
+    border-radius: 1rem;
+    @include flexCSB;
+    box-shadow: 0.2rem 0.2rem 0.2rem $shadow;
+    &--index{
+        background: url()no-repeat center/cover;
+        background-color: $bg;
+    }
+    &--profil{
+        background: url()no-repeat center/cover;
+        background-color: $bg;
+    }
+    &--messagerie{
+        background: url()no-repeat center/cover;
+        background-color: $bg;
+    }
+    &--discovery{
+        background: url()no-repeat center/cover;
+        background-color: $bg;
+    }
+    &--activity{
+        background: url()no-repeat center/cover;
+        background-color: $bg;
+    }
+    &--404{
+        background: url(./../images/rsz_1yulia-matvienko-kgz9vsp5jcu-unsplash.jpg)no-repeat center/cover;
+    }
+    &--calendar{
+        background: url(./../images/40344.jpeg)no-repeat center/cover;
+    }
+    &--agenda{
+        background: url()no-repeat center/cover;
+        background-color: $bg;
+    }
+    &--final{
+        background: url()no-repeat center/cover;
+        background-color: $bg;
+    }
+}

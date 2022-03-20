@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="contener contener--404">
+    <div class="contener contener--calendar">
       <header class="header">
         <nav class="nav">
             <span class="toggle nav__toggle">
@@ -46,17 +46,25 @@
         </nav>
       </header>
       
-      <main class="main">
-        <section class="error">
-          <article class="error__art">
-            <h2 class="error__h2">404</h2>
-            <p class="error__p">Oups, il semble que nos super héros se sont égarés!</p>
+      <main class="main2">
+        <section class="calendar">
+          <article class="calendar__art">
+            <img class="calendar__img" src="./../assets/images/calendar.png" alt="">
           </article>
         </section>
       </main>
 
       <footer class="footer">
-
+        <section class="deconnexion">
+            <article class="deconnexion__art">
+                <a class="deconnexion__link" href="./messagerie.html">
+                    <button class="button deconnexion__button button--maxi3">
+                        <span class="calendar__span">continuer</span> 
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </a>
+            </article>
+        </section>
       </footer>
     </div>
     <script src="./../assets/js/toggle.js"></script>

@@ -18,26 +18,53 @@
 </head>
 
 <body>
-    <header class="header">
+    <div class="contener contener--messagerie">
+      <header class="header">
         <nav class="nav">
             <span class="toggle nav__toggle">
                 <i class="fas fa-bars toggle__open"></i>
                 <i class="fas fa-times toggle__close"></i>
               </span>
+              <ul class="nav__box">
+                <li class="nav__branch">
+                    <a href="./../index.html" class="nav__link2">home</a>
+                </li>
+                <li class="nav__branch">
+                    <a href="#" class="nav__link2">events</a>
+                </li>
+                <li class="nav__branch">
+                <a href="#" class="nav__link2">faq</a>
+                </li>
+                <li class="nav__branch">
+                <a href="#" class="nav__link2">contact us</a>
+                </li>
+            </ul> 
               <span class="nav__link">
                 <i class="fas fa-search"></i>
-                <a class="nav__profil" href="#"><div class="nav__img" id="profil"></div></a>       
+                <a class="nav__profil" href="./profil.html"><div class="nav__img" id="profil"></div></a>       
               </span>
         </nav>
-    </header>
-    <main class="main">
+      </header>
 
-    </main>
+      <main class="main">
+        <section class="messages">
+          <h4 class="messages__h4">Today</h4>
+          <img src="./../assets/images/conve.png" alt="">
+        </section>
+      </main>
 
-    <footer class="footer">
-
-    </footer>
-
+      <footer class="footer">
+            <section class="deconnexion">
+                <article class="deconnexion__art">
+                    <a class="deconnexion__link" href="./final.html">
+                        <button class="button deconnexion__button button--maxi">
+                            Réserver
+                        </button>
+                    </a>
+                </article>
+            </section>
+      </footer>
+    </div>
     <script src="./../assets/js/toggle.js"></script>
     <script src="./../assets/js/parallax.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
