@@ -180,7 +180,7 @@ img {
   border-radius: 50%;
   height: 4rem;
   width: 4rem;
-  background: url("./../images/profiles/1.jpg") no-repeat center/cover;
+  background: url("./../images/profiles/3.jpg") no-repeat center/cover;
   margin: 0 1rem 0 1.5rem;
   border: 0.1rem solid #FFF;
 }
@@ -268,6 +268,14 @@ img {
   width: 100%;
 }
 
+.main3 {
+  background: url(./../images/be_in_motiON.png) no-repeat center/cover;
+  width: 80%;
+  height: 60%;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(93, 76, 85, 0.5);
+}
+
 .identity {
   width: 100%;
   padding: 1rem;
@@ -288,7 +296,7 @@ img {
 }
 .identity__photoProfil {
   height: 10rem;
-  background: url("./../images/profiles/1.jpg") no-repeat center/cover;
+  background: url("./../images/profiles/3.jpg") no-repeat center/cover;
   border-radius: 1rem;
   margin: 0.2rem;
 }
@@ -461,7 +469,7 @@ img {
   width: 100%;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(93, 76, 85, 0.5);
   display: flex;
   flex-direction: column;
@@ -482,7 +490,7 @@ img {
   padding: 2rem;
   margin-top: 2rem;
   border-radius: 1rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(93, 76, 85, 0.5);
   display: flex;
   flex-direction: column;
@@ -494,6 +502,7 @@ img {
 .bubble2__p {
   text-align: center;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .activity_profileBox {

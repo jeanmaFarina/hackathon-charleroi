@@ -3,7 +3,7 @@
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: $white3;
+    background-color: $white2;
     box-shadow: 0.2rem 0.2rem 0.2rem $shadow;
     @include flexC;
     &__h4{
@@ -18,12 +18,13 @@
   padding: 2rem;
   margin-top: 2rem;
   border-radius: 1rem;
-  background-color: $white3;
+  background-color: $white2;
   box-shadow: 0.2rem 0.2rem 0.2rem $shadow;
   @include flexC;
   &__p{
     text-align: center;
     font-size: 1.5rem;
+    font-weight: bold;
   }
 }
   .activity_profileBox{

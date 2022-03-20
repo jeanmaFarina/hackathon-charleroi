@@ -14,11 +14,12 @@
 
     <link rel="shortcut icon" href="./../assets/images/favicon-32x32.png">
 
+    <script src="./../assets/JS/api.js"></script>
     <title>Be in motiON</title>
 </head>
 
 <body>
-  <div class="contener contener--discovery" id="idbg">
+  <div class="contener contener--index">
     <header class="header">
       <nav class="nav">
           <span class="toggle nav__toggle">
@@ -27,7 +28,7 @@
             </span>
             <ul class="nav__box">
               <li class="nav__branch">
-                <a href="./intro.html" class="nav__link2">home</a>
+                  <a href="#" class="nav__link2">home</a>
               </li>
               <li class="nav__branch">
                   <a href="#" class="nav__link2">events</a>
@@ -46,53 +47,45 @@
       </nav>
     </header>
 
-      <main class="main2">
-          <section class="bubble1">
-            <!-- API! -->
-            <h4 class="bubble1__h4">Musee de la photographie charleroi</h4>
-          </section>
+      <main class="main">
+        <section class="news">
+          <article class="news__art">
+            <input type="radio" class="news__inews">
+            <input type="radio" class="news__inews" checked>
+            <input type="radio" class="news__inews">
+          </article>
+        </section>
 
-          <section class="bubble2">
-            <p class="bubble2__p">Le Musée de la Photographie, Centre d’art contemporain de la Fédération Wallonie-Bruxelles à Charleroi, a été inauguré en 1987 dans l’ancien carmel de Mont-sur-Marchienne.</p>
-
-            <div class="activity_profileBox">
-              <div class="activity_profilePicture" id="#profile1">
-              </div>
-              <div class="activity_profilePicture" id="#profile2">
-              </div>
-              <div class="activity_profilePicture" id="#profile3">
-              </div>
-              <div class="activity_profilePicture" id="#profile4">
-              </div>
-              <div class="activity_profilePicture" id="#profile5">
-              </div>
-            </div>
-          </section>
+        <section class="indexTripleButtons">
+          <a class="indexTripleButtons__link" href="./agenda.html">
+            <button class="button indexTripleButtons__button button--maxi">
+                agenda
+            </button>
+          </a>
+          <a class="indexTripleButtons__link" href="./calendar.html">
+            <button class="button indexTripleButtons__button button--maxi">
+                qui aider?
+            </button>
+          </a>
+          <a class="indexTripleButtons__link" href="./discovery.html">
+            <button class="button indexTripleButtons__button button--maxi2">
+              <i class="fa-solid fa-earth-europe"></i>
+            </button>
+          </a>
+          <a class="indexTripleButtons__link" href="./profil.html">
+            <button class="button indexTripleButtons__button button--maxi2">
+              <i class="fa-solid fa-user"></i>
+            </button>
+          </a>
+        </section>
       </main>
 
       <footer class="footer">
-          <section class="multiBtn">
-            <article class="multiBtn__art">
-                    <button class="button multiBtn__button button--mini1" id="previous">
-                      <i class="fa-solid fa-arrow-left"></i>
-                    </button>
-                <a class="multiBtn__link" href="./calendar.html">
-                  <button class="button multiBtn__button button--mini2">
-                    +
-                  </button>
-                </a>
-                  <button class="button multiBtn__button button--mini1" id="next">
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </button>
-            </article>
-        </section>
+
       </footer>
     </div>
     <script src="./../assets/js/toggle.js"></script>
     <script src="./../assets/js/parallax.js"></script>
-    <script src="./../assets/js/activity.js"></script>
-
-    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
