@@ -1,0 +1,32 @@
+.fonctionnalite{
+    height: 100%;
+    &__art{
+        height: 100%;
+        @include flexCSB; 
+        padding: 2rem 0;  
+        button:nth-child(1){
+            background-color: $greenMain;
+        }
+        button:nth-child(2){
+            background-color: $blueMain;
+        }
+        button:nth-child(3){
+            background-color: $greenMain;
+        }
+        button:nth-child(4){
+            background-color: $blueMain;
+        }
+        button:nth-child(5){
+            background-color: $greenMain;
+        }
+        button:nth-child(6){
+            background-color: $blueMain;
+        }
+        button:nth-child(7){
+            background-color: $greenMain;
+        }
+        button:nth-child(8){
+            background-color: $blueMain;
+        }
+    }
+}

@@ -13,7 +13,10 @@
         button:nth-child(4){
             background-color: $greenMain;
         }
-        button:nth-child(5){
+
+    }
+    &__link{
+        button{
             background-color: $blueMain;
         }
     }
