@@ -709,6 +709,10 @@ input[type=radio]:focus {
   grid-template-areas: "a a" "b b" "c d";
   gap: 1rem;
 }
+.indexTripleButtons__p {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
 .indexTripleButtons__link:nth-child(1) {
   grid-area: a;
 }

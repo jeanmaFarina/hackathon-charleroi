@@ -5,6 +5,10 @@
     "b b"
     "c d";
     gap: 1rem;
+    &__p{
+        margin-top: 0.5rem;
+        font-size: 2rem;
+    }
     &__link{
         &:nth-child(1){
             grid-area: a;
