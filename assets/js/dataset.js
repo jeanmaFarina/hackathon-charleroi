@@ -6,8 +6,16 @@ const url_pro="http://localhost:3000/pro/";
 
 
 /* 
-Note that  most of the necessary functions are created we just need to add events of the html file and implement these functions
+Note that  most of the necessary functions are created we just need to add events of the html 
+file and implement these functions either call these functions of copy the body of the functions
 */
+
+
+function redirectPage(anchorElt) {
+    //this function will be used on click event of anchor tag to redirect page
+    url= anchorElt.href;
+    location.assign(url);
+}
 
 
 
